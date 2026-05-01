@@ -20,6 +20,8 @@ evidence/
 # Large models
 *.pt
 *.pth
+!models/
+!models/*.pt
 
 # VSCode
 .vscode/

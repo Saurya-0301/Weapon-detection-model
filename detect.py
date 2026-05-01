@@ -5,7 +5,7 @@ import torch
 device = 0 if torch.cuda.is_available() else "cpu"
 print("Running on:", "GPU" if device == 0 else "CPU")
 
-model = YOLO("yolov8m.pt")
+model = YOLO("models/yolov8m.pt")
 
 cap = cv2.VideoCapture(0)
 

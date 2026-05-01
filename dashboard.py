@@ -18,8 +18,8 @@ st.title("🛡 AI Defense Surveillance Command Center")
 
 device = 0 if torch.cuda.is_available() else "cpu"
 
-general_model = YOLO("yolov8m.pt")
-weapon_model = YOLO("runs/detect/train/weights/best.pt")
+general_model = YOLO("models/yolov8m.pt")
+weapon_model = YOLO("models/weapon_best.pt")
 
 # -------------------------
 # DASHBOARD LAYOUT

@@ -4,7 +4,7 @@ import torch
 
 device = 0 if torch.cuda.is_available() else "cpu"
 
-model = YOLO("runs/detect/train/weights/best.pt")
+model = YOLO("models/weapon_best.pt")
 
 cap = cv2.VideoCapture(0)
 

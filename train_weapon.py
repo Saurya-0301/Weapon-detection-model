@@ -2,7 +2,7 @@ from ultralytics import YOLO
 
 def train():
 
-    model = YOLO("yolov8s.pt")
+    model = YOLO("models/yolov8s.pt")
 
     model.train(
         data="weapon_dataset/data.yaml",

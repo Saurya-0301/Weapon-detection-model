@@ -13,8 +13,8 @@ print("Running on:", "GPU" if device == 0 else "CPU")
 
 
 
-general_model = YOLO("yolov8x.pt")
-weapon_model = YOLO("runs/detect/train/weights/best.pt")
+general_model = YOLO("models/yolov8x.pt")
+weapon_model = YOLO("models/weapon_best.pt")
 
 
 
