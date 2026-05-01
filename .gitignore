@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# YOLO training results
+runs/
+
+# Dataset
+dataset/
+weapon_dataset/
+images/
+labels/
+
+# Evidence images
+evidence/
+
+# Large models
+*.pt
+*.pth
+
+# VSCode
+.vscode/
